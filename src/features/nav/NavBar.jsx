@@ -25,7 +25,6 @@ export default function NavBar({ setFormOpen }) {
         {authenticated && (
           <Menu.Item as={NavLink} to="/createEvent">
             <Button
-              onClick={() => setFormOpen(true)}
               positive
               inverted
               content="Create Event"
